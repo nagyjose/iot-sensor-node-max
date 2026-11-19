@@ -1,0 +1,34 @@
+Partlist exported from C:/Users/josef/Documents/EAGLE/projects/Sensor-node_max/Sensor-node_max.sch at 15.10.2023 15:55
+
+Qty Value       Device             Package                   Parts                         Description                               
+3   100R        R_0805             0805                      R9, R10, R11                  Rezistor                                  
+4   100k        R_0805             0805                      R17, R18, R21, R22            Rezistor                                  
+2   100n        C_KER_0805         0805                      C3, C6                        Kondenzator - keramicky                   
+1   10u         C_EL_SMDD          C_EL-SMD_D                C7                                                                      
+1   150         R_0805             0805                      R12                           Rezistor                                  
+2   22k         R_0805             0805                      R14, R20                      Rezistor                                  
+2   2k          R_0805             0805                      R2, R6                        Rezistor                                  
+2   2k7         R_0805             0805                      R4, R8                        Rezistor                                  
+2   330R        R_0805             0805                      R3, R7                        Rezistor                                  
+2   470R        R_0805             0805                      R1, R5                        Rezistor                                  
+2   4k7         R_0805             0805                      R15, R16                      Rezistor                                  
+4   4u7         C_KER_0805         0805                      C1, C2, C4, C5                Kondenzator - keramicky                   
+2   8k2         R_0805             0805                      R13, R19                      Rezistor                                  
+1   AM2302      AM2302             AM2302                    U6                                                                      
+2   AP9101C_1   AP9101C_1          GHI-IC_SOT23-5(MICROCHIP) U2, U4                                                                  
+3   BXT280N02B  BXT280N02B         SO8                       T1, T2, T4                                                              
+2   CON_18650_1 CON_18650_1        BATTERY_PADS_1            BAT1, BAT2                                                              
+1   CON_ADC     CON_ADC            ADC_CON                   CON1                                                                    
+2   CON_I2C     CON_I2C            I2C_CONN                  CON3, CON4                                                              
+2   CON_SPI_B   CON_SPI_B          SPI_CONN_2                CON5, CON6                                                              
+1   DS18B20_1   DS18B20_1          DS18B20_CABLE             U8                                                                      
+2   LED         LED_1206           P1206                     D1, D2                        LED - jednobarevna                        
+1   LM4040      LM4040             TRANSISTOR-FET_SOT23      D13                                                                     
+2   MCP73831T_2 MCP73831T_2        GHI-IC_SOT23-5(MICROCHIP) U1, U3                                                                  
+1   NRF24L01_1  NRF24L01_1         NRF24L01_NORM             U9                                                                      
+1   OLED_I2C    OLED_I2C           I2C_CONN                  U7                                                                      
+7   RB751V40T1G RB751V40T1G        SOD323                    D6, D7, D8, D9, D10, D11, D12                                           
+1   RPI_PICO_W  RASPBERRY_PICO_W_2 RPI_PICO_W                U5                                                                      
+1   S2G6        S2G6_JUMP          S2G6_JUM                  CON7                          Radove konektory - koliky - dvojite - 2x6 
+3   STPS1L30_1  STPS1L30_1         SMA                       D3, D4, D5                                                              
+3   YJL2301D    YJL2301D           TRANSISTOR-FET_SOT23      T3, T5, T6                                                              
