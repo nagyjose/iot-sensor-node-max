@@ -95,7 +95,15 @@ flowchart TD
 
 ---
 
-## 3. Hardware Specifications & Pin Mapping
+## 3. Schematic & Circuit Diagram
+
+![IoT Sensor Node Max Schematic](docs/images/schematic.png)
+
+📄 [Open original high-resolution schematic (PDF)](Sensor-node_max.pdf)
+
+---
+
+## 4. Hardware Specifications & Pin Mapping
 
 ### Complete Pico W Pinout
 
@@ -133,7 +141,7 @@ flowchart TD
 
 ---
 
-## 4. PCB Layout & Manufacturing Specifications
+## 5. PCB Layout & Manufacturing Specifications
 
 - **PCB Dimensions:** 78.79 mm × 54.56 mm (3.10" × 2.15")
 - **Layer Count:** 2 layers (Top Copper, Bottom Copper)
@@ -159,10 +167,13 @@ flowchart TD
 
 ---
 
-## 5. Repository Structure
+## 6. Repository Structure
 
 ```text
 .
+├── docs/
+│   └── images/
+│       └── schematic.png   # High-resolution schematic preview (180 DPI)
 ├── CAMOutputs/
 │   ├── Assembly/           # Automated Pick & Place and BOM files
 │   ├── DrillFiles/         # Excellon NC drill files
@@ -180,7 +191,7 @@ flowchart TD
 
 ---
 
-## 6. How to Use & Firmware Deployment
+## 7. How to Use & Firmware Deployment
 
 ### MicroPython Dual-Battery Reading Example
 
@@ -220,7 +231,7 @@ print(f"Battery 1: {v_cell1:.2f} V | Battery 2: {v_cell2:.2f} V")
 
 ---
 
-## 7. Relations & Ecosystem Links
+## 8. Relations & Ecosystem Links
 
 This project is part of a modular IoT sensor ecosystem:
 - **[`iot-sensor-node-med`](https://github.com/nagyjose/iot-sensor-node-med):** Compact single-cell sibling node for constrained enclosures.
@@ -229,7 +240,7 @@ This project is part of a modular IoT sensor ecosystem:
 
 ---
 
-## 8. License & Author
+## 9. License & Author
 
 - **Author:** Josef Nagy (`nagyjose`)
 - **Design Tool:** Autodesk Eagle v9.x
